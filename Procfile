@@ -1,0 +1,1 @@
+web: uwsgi --http :8000 --wsgi-file hello_world_aws_20240718.py --master --processes 4 --threads 2
